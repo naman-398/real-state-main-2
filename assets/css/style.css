@@ -152,6 +152,20 @@
 .p-22{
   padding: 22px;
 }
+.circleb {
+  border-radius: 50px;
+  padding: 1px;
+  background: #FFF;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 4px;
+  bottom: 4px;
+  z-index: 2;
+}
+.d_none{
+  display: none;
+}
 /* img */
 .bg-livingImg{
   background-image: url('../images/png/livingImg.png');

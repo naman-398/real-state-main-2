@@ -82,7 +82,7 @@ p{
 }
 
 .icon:hover{
-        /* font-weight: 600 !important; */
+
         -webkit-text-stroke-width: 0.6px !important;
 }
 
@@ -91,7 +91,7 @@ p{
         border-radius: 6.42px;
         padding: 0px 0px 24px 0px;
         box-shadow: 0px 25.7px 72.81px 0px #3B4D8114;
-
+max-width: 424px;
 }
 ul{
         padding-left: 0 !important;
@@ -111,7 +111,7 @@ ul{
 }
 
 .mini-box:hover {
-        background: var(--color-bg-2C);
+        background: var(--color-2C);
 }
  .mini-box:hover .num{
         color: white;
@@ -133,7 +133,7 @@ ul{
 }
 
 .bg-header {
-        background-image: url(../Images/header-bg.webp);
+        background-image: url(../images/png/header-bg.webp);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;

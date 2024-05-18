@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>REIS</title>
+    <link rel="icon" href="./assets/images/png/faveicon.png">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/root.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
@@ -17,6 +18,16 @@
   <img src="./assets/images/svg/Pagelogo.svg" width="300" height="300" alt="Pagelogo">
 
 </div>
+
+    <!-- ===================================   BACKTOTOP   ================================ -->
+
+<div id="backtotop" class="d_none circleb cursor-pointer preloaderstyle ">
+  <svg class="circlimg  bi bi-arrow-up-circle" xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+          fill="currentColor" viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+                  d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+  </svg>
+</div>
     <!-- ===================================   HEADER   ================================ -->
 <header class="  header-bg min-vh-100 d-flex flex-column">
   <div class=" ">
@@ -27,11 +38,11 @@
   <p class=" fs-xxs fw-bold text-white mb-0 ">Email us at : <span class=" fw-normal">example@mail.com</span></p>
 </div>
 <div class=" d-flex align-items-center gap-lg-3 gap-2">
- <a href=""><img src="./assets/images/svg/Facebook.svg" alt="Facebook"></a> 
- <a href=""><img src="./assets/images/svg/Earth.svg" alt="Earth"></a> 
- <a href=""><img src="./assets/images/svg/linkedin.svg" alt="linkedin"></a> 
- <a href="">  <img src="./assets/images/svg/Instagram.svg" alt="Instagram"></a> 
- <a href=""><img src="./assets/images/svg/Behance.svg" alt="Behance"></a> 
+ <a href="https://www.facebook.com/" target="_blank"><img src="./assets/images/svg/Facebook.svg" alt="Facebook"></a> 
+ <a href="https://en.wikipedia.org/wiki/Earth" target="_blank"><img src="./assets/images/svg/Earth.svg" alt="Earth"></a> 
+ <a href="https://in.linkedin.com/" target="_blank"><img src="./assets/images/svg/linkedin.svg" alt="linkedin"></a> 
+ <a href="https://www.instagram.com/" target="_blank">  <img src="./assets/images/svg/Instagram.svg" alt="Instagram"></a> 
+ <a href="https://www.behance.net/"><img src="./assets/images/svg/Behance.svg" alt="Behance"></a> 
  <span class=" ms-lg-3 me-lg-2"><img src="./assets/images/svg/HeaderLine.svg" alt="HeaderLine"></span> 
  <a href="" class=" d-flex align-items-center gap-12 text-decoration-none">
   <img src="./assets/images/svg/Phone.svg" alt="phone">
@@ -54,13 +65,13 @@
 </div>
 <ul id="navbar" class=" d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 ff-inter fs-xxs lh-xxs fw-normal mb-0 ms-0 mobile-view"> 
   <li ><a class=" text-white text-decoration-none" href="./index.html">HOME</a></li>
-  <li ><a class=" text-white text-decoration-none" href="">ABOUT US</a></li>
-  <li ><a class=" text-white text-decoration-none" href="">OUR AGENTS</a></li>
+  <li ><a class=" text-white text-decoration-none" href="#about">ABOUT US</a></li>
+  <li ><a class=" text-white text-decoration-none" href="#our">OUR AGENTS</a></li>
   <li ><a class=" text-white text-decoration-none" href="./index2.html">PROPERTIES</a></li>
-  <li ><a class=" text-white text-decoration-none" href="">GALLERY</a></li>
-  <li ><a class=" text-white text-decoration-none" href="">BLOG</a></li>
-  <li ><a class=" text-white text-decoration-none" href="">CONTACT US</a></li>
-  <li ><a class=" text-white text-decoration-none" href="">SEARCH</a></li>
+  <li ><a class=" text-white text-decoration-none" href="#gallery">GALLERY</a></li>
+  <li ><a class=" text-white text-decoration-none" href="#blog">BLOG</a></li>
+  <li ><a class=" text-white text-decoration-none" href="#contact">CONTACT US</a></li>
+  <li ><a class=" text-white text-decoration-none" href="#serch">SEARCH</a></li>
 </ul>
 <button class=" ff-inter fw-medium lh-sm fs-sm text-white navbtn">
   Add Listing
@@ -127,7 +138,7 @@
       </div>
     </div>
     <!-- ===================================   Propertice by Area   ================================ -->
-    <section class=" pb-5 property1-mt">
+    <section class=" pb-5 property1-mt" id="about">
 <div class=" container my-container pb-md-5 pb-sm-3">
   <h2 class=" ff-inter fw-semibold fs-3xl lh-3xl color-1E text-center mb-sm-4 mb-3">Propertice by Area</h2>
   <p class=" ff-inter fw-normal fs-2md lh-2md color-88 text-center mb-md-5 mb-3 ">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere <span class=" d-md-block">cubilia curae; Proin sodales ultrices nulla blandit volutpat.</span></p>
@@ -186,7 +197,7 @@
 </div>
     </section>
     <!-- ===================================   Propertice by Area2   ================================ -->
-     <section class="color-bg-ed">
+     <section class="color-bg-ed" id="our">
       <div class="py-100">
               <div class="container my-container">
                       <h2 class=" ff-inter fw-semibold fs-3xl lh-3xl text-center color-1E m-0">Propertice by Area</h2>
@@ -510,7 +521,7 @@
       </div>
   </section>
     <!-- ===================================   Letest Properties of Rent2   ================================ -->
-    <section class=" pt-5 mt-md-5 mt-sm-3">
+    <section class=" pt-5 mt-md-5 mt-sm-3" id="gallery" id="blog">
     <div class=" container my-container ">
       <h2 class=" ff-inter fw-semibold fs-3xl lh-3xl color-1E text-center mb-sm-4 mb-3">Letest Properties of Rent</h2>
       <p class=" ff-inter fw-normal fs-2md lh-2md color-88 text-center mb-md-5 mb-3 ">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere <span class=" d-md-block">cubilia curae; Proin sodales ultrices nulla blandit volutpat.</span></p>
@@ -584,8 +595,8 @@
       </button>
     </div>
   </section>
-    <!-- ===================================   Letest Properties of Rent2   ================================ -->
-  <section class=" py-5 my-md-5 my-sm-3">
+    <!-- ===================================   FIND   ================================ -->
+  <section class=" py-5 my-md-5 my-sm-3" id="serch">
     <div class="bg-livingImg d-flex flex-column justify-content-center align-items-center  py-3 py-sm-0">
             <div class=" container my-container">
                     <h2 class=" ff-inter fw-semibold fs-3xl lh-3xl text-center text-white m-0">Find Best Place For Living</h2>
@@ -609,7 +620,7 @@
                           <a href="https://en.wikipedia.org/wiki/Earth" target="_blank"><img src="./assets/images/svg/Earth2.svg" alt="broserSvg"></a>
                           <a href="https://in.linkedin.com/" target="_blank"><img src="./assets/images/svg/Linkedin2.svg" alt="linkedSvg"></a>
                           <a href="https://www.instagram.com/" target="_blank"><img src="./assets/images/svg/Insta2.svg" alt="instaSvg"></a>
-                          <a href=""><img src="./assets/images/svg/Behance2.svg" alt="socialSvg"></a>
+                          <a href="https://www.behance.net/" target="_blank"><img src="./assets/images/svg/Behance2.svg" alt="socialSvg"></a>
                   </div>
           </div>
           <div class="col-lg-8 col-12 ">
@@ -741,8 +752,19 @@ setTimeout(() => {
     document.getElementById("navbar").classList.toggle("start-0");
     document.body.classList.toggle("overflow_hidden");
     document.querySelector(".menu").classList.toggle("cross");
-
 }
+let backToTop = document.getElementById('backtotop')
+          backToTop.addEventListener("click", function () {
+                  window.scrollTo(0, 0);
+          });
+          window.addEventListener('scroll', function () {
+                  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                          backToTop.style.display = "block";
+                  } else {
+                          backToTop.style.display = "none";
+                  }
+          });
     </script>
+
   </body>
 </html>

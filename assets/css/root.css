@@ -129,6 +129,9 @@
 .color-2C{
         color: var(--color-2C);
 }
+.color-bg-2C{
+        background-color: var(--color-2C);
+}
 .color-CF{
         color: var(--color-CF);
 }
