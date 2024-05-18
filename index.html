@@ -1,0 +1,748 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>REIS</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/root.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body class=" overflow-h">
+    <!-- ===================================   LOADER   ================================ -->
+    <div id="preloader"
+    class="min-vh-100 bg-black d-flex justify-content-center align-items-center position-fixed top-0 start-0 w-100 z-5 flex-column">
+  <img src="./assets/images/svg/Pagelogo.svg" width="300" height="300" alt="Pagelogo">
+
+</div>
+    <!-- ===================================   HEADER   ================================ -->
+<header class="  header-bg min-vh-100 d-flex flex-column">
+  <div class=" ">
+  <div class=" navbar-conatiner">
+<div class=" d-md-flex align-items-center p-socialicon-header justify-content-between d-none">
+<div class=" d-flex align-items-center gap-12">
+  <img src="./assets/images/svg/Emailbox.svg" alt="">
+  <p class=" fs-xxs fw-bold text-white mb-0 ">Email us at : <span class=" fw-normal">example@mail.com</span></p>
+</div>
+<div class=" d-flex align-items-center gap-lg-3 gap-2">
+ <a href=""><img src="./assets/images/svg/Facebook.svg" alt="Facebook"></a> 
+ <a href=""><img src="./assets/images/svg/Earth.svg" alt="Earth"></a> 
+ <a href=""><img src="./assets/images/svg/linkedin.svg" alt="linkedin"></a> 
+ <a href="">  <img src="./assets/images/svg/Instagram.svg" alt="Instagram"></a> 
+ <a href=""><img src="./assets/images/svg/Behance.svg" alt="Behance"></a> 
+ <span class=" ms-lg-3 me-lg-2"><img src="./assets/images/svg/HeaderLine.svg" alt="HeaderLine"></span> 
+ <a href="" class=" d-flex align-items-center gap-12 text-decoration-none">
+  <img src="./assets/images/svg/Phone.svg" alt="phone">
+  <span class=" ff-inter fw-normal fs-xxs lh-xxs text-white mb-0">123-4567 890</span>
+ </a>
+</div>
+</div>
+</div>
+<hr class="  navbar-top-line m-0 d-none d-md-block"/>
+<div class=" navbar-conatiner pt-4">
+<nav class=" d-flex justify-content-between align-items-center">
+<a href="">
+  <img src="./assets/images/svg/Pagelogo.svg" alt="Pagelogo">
+</a>
+<div class=" d-flex align-items-center gap-xl-4 gap-3">
+  <div onclick="openNav()" class="menu d-block d-lg-none z-5">
+    <span></span>
+    <span class="my-2"></span>
+    <span></span>
+</div>
+<ul id="navbar" class=" d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 ff-inter fs-xxs lh-xxs fw-normal mb-0 ms-0 mobile-view"> 
+  <li ><a class=" text-white text-decoration-none" href="./index.html">HOME</a></li>
+  <li ><a class=" text-white text-decoration-none" href="">ABOUT US</a></li>
+  <li ><a class=" text-white text-decoration-none" href="">OUR AGENTS</a></li>
+  <li ><a class=" text-white text-decoration-none" href="./index2.html">PROPERTIES</a></li>
+  <li ><a class=" text-white text-decoration-none" href="">GALLERY</a></li>
+  <li ><a class=" text-white text-decoration-none" href="">BLOG</a></li>
+  <li ><a class=" text-white text-decoration-none" href="">CONTACT US</a></li>
+  <li ><a class=" text-white text-decoration-none" href="">SEARCH</a></li>
+</ul>
+<button class=" ff-inter fw-medium lh-sm fs-sm text-white navbtn">
+  Add Listing
+</button>
+</div>
+</nav>
+</div>
+</div>
+<section class=" d-flex align-items-center flex-column flex-grow-1 justify-content-center">
+  <div class=" container my-container">
+    <h1 class=" text-center fs-4xl lh-4xl text-white fw-semibold ff-public mb-sm-4 mb-2">Find Your Dream Home</h1>
+    <p class=" fw-normal ff-inter text-center color-ed mb-0 fs-2md">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere <span class=" d-sm-block">cubilia curae; Proin sodales ultrices nulla blandit volutpat.</span></p>
+  </div>
+</section>
+</header>
+    <!-- ===================================   RENT AND SALE   ================================ -->
+    <div class=" container my-container translate-Y-rentbox">
+      <div class=" d-flex align-items-center justify-content-center gap-10 mb-12">
+        <button class=" rent-sale_btn lh-xxs fs-xxs  fw-medium ff-inter position-relative">
+          Rent
+          <span class=" position-absolute  triangle-svg-btn">
+            <img src="./assets/images/svg/RentSale_Svg.svg" alt="">
+          </span>
+        </button>
+        <button class=" rent-sale_btn lh-xxs fs-xxs  fw-medium ff-inter position-relative">
+          Sale
+          <span class=" position-absolute  triangle-svg-btn ">
+            <img src="./assets/images/svg/RentSale_Svg.svg" alt="">
+          </span>
+        </button>
+      </div>
+      <div class=" rent-sale-box w-100 mx-auto overflow-hidden">
+        <div class=" row">
+          <div class=" col-md-3 col-6 border-rent-sale-box d-flex flex-column align-items-center pb-2 pb-md-0">
+            <div class=" d-flex flex-column">
+<p class=" ff-inter fw-semibold fs-sm lh-sm color-2C mb-md-3 mb-1">Locations</p>
+<p class=" ff-inter fw-normal fs-sm lh-sm color-88 mb-0 d-flex align-items-center gap-2">Select your city <span> 
+  <img src="./assets/images/svg/Arrow.svg" alt="Arrow">
+</span></p>
+</div>
+          </div>
+          <div class=" col-md-3 col-6 border-rent-sale-box3 d-flex flex-column align-items-center pb-2 pb-md-0">
+            <div class=" d-flex flex-column">
+<p class=" ff-inter fw-semibold fs-sm lh-sm color-2C mb-md-3 mb-1">Property Type</p>
+<p class=" ff-inter fw-normal fs-sm lh-sm color-88 mb-0 d-flex align-items-center gap-2">Select property type<span> 
+  <img src="./assets/images/svg/Arrow.svg" alt="Arrow">
+</span></p>
+</div>
+          </div>
+          <div class=" col-md-3 col-6 border-rent-sale-box2 d-flex flex-column align-items-center pt-2 mt-md-0">
+            <div class=" d-flex flex-column">
+<p class=" ff-inter fw-semibold fs-sm lh-sm color-2C mb-md-3 mb-1">Rent Range</p>
+<p class=" ff-inter fw-normal fs-sm lh-sm color-88 mb-0 d-flex align-items-center gap-2">Select rent range<span> 
+  <img src="./assets/images/svg/Arrow.svg" alt="Arrow">
+</span></p>
+</div>
+          </div>
+          <div class=" col-md-3 col-6 d-flex flex-column align-items-center justify-content-center pt-2 mt-md-0">
+            <button class=" rent-sale_btn2 lh-xxs fs-xxs  fw-medium ff-inter position-relative">
+              Search
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ===================================   Propertice by Area   ================================ -->
+    <section class=" pb-5 property1-mt">
+<div class=" container my-container pb-md-5 pb-sm-3">
+  <h2 class=" ff-inter fw-semibold fs-3xl lh-3xl color-1E text-center mb-sm-4 mb-3">Propertice by Area</h2>
+  <p class=" ff-inter fw-normal fs-2md lh-2md color-88 text-center mb-md-5 mb-3 ">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere <span class=" d-md-block">cubilia curae; Proin sodales ultrices nulla blandit volutpat.</span></p>
+  <div class=" d-grid gap-lg-4 gap-sm-3 gap-2">
+    <div class=" grid1">
+    <div class="  position-relative overflow-hidden slider-hover">
+      <img src="./assets/images/png/S2Img1.png" alt="SliderImg1" class=" w-100 ">
+      <div class=" position-absolute w-100 h-100 d-flex align-items-center justify-content-center z-1 start-0 top-0 slider-hover-btn">
+        <button class=" ff-inter fw-medium lh-sm fs-sm text-white navbtn">
+          View Detail
+        </button>
+      </div>
+    </div>
+  </div>
+    <div class=" grid2">
+    <div class="  position-relative overflow-hidden slider-hover">
+      <img src="./assets/images/png/S2Img2.png" alt="SliderImg1" class=" w-100 ">
+      <div class=" position-absolute w-100 h-100 d-flex align-items-center justify-content-center z-1 start-0 top-0 slider-hover-btn">
+        <button class=" ff-inter fw-medium lh-sm fs-sm text-white navbtn">
+          View Detail
+        </button>
+      </div>
+    </div>
+  </div>
+    <div class=" grid3">
+    <div class="  position-relative overflow-hidden slider-hover">
+      <img src="./assets/images/png/S2Img3.png" alt="SliderImg1" class=" w-100 ">
+      <div class=" position-absolute w-100 h-100 d-flex align-items-center justify-content-center z-1 start-0 top-0 slider-hover-btn">
+        <button class=" ff-inter fw-medium lh-sm fs-sm text-white navbtn">
+          View Detail
+        </button>
+      </div>
+    </div>
+  </div>
+    <div class=" grid4">
+    <div class="  position-relative overflow-hidden slider-hover">
+      <img src="./assets/images/png/S2Img4.png" alt="SliderImg1" class="  w-100">
+      <div class=" position-absolute w-100 h-100 d-flex align-items-center justify-content-center z-1 start-0 top-0 slider-hover-btn">
+        <button class=" ff-inter fw-medium lh-sm fs-sm text-white navbtn">
+          View Detail
+        </button>
+      </div>
+    </div>
+  </div>
+    <div class=" grid5">
+    <div class="  position-relative overflow-hidden slider-hover">
+      <img src="./assets/images/png/S2Img5.png" alt="SliderImg1" class="  w-100">
+      <div class=" position-absolute w-100 h-100 d-flex align-items-center justify-content-center z-1 start-0 top-0 slider-hover-btn">
+        <button class=" ff-inter fw-medium lh-sm fs-sm text-white navbtn">
+          View Detail
+        </button>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+    </section>
+    <!-- ===================================   Propertice by Area2   ================================ -->
+     <section class="color-bg-ed">
+      <div class="py-100">
+              <div class="container my-container">
+                      <h2 class=" ff-inter fw-semibold fs-3xl lh-3xl text-center color-1E m-0">Propertice by Area</h2>
+                      <p class="ff-inter fw-normal fs-2md lh-2md text-center color-88 max-w-578 mx-auto pt-4 ">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin sodales ultrices nulla blandit volutpat.</p>
+                  <div class="row pt-5  ">
+                         <div class="col-lg-3 col-md-6 col-12">
+                              <div class="ariaCard p-22 d-flex flex-column align-items-center align-items-lg-start">
+                                      <svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                              <path d="M68.8087 38.2562H68.7869C68.4913 38.2562 68.2065 38.1437 67.9906 37.9442L55.7392 26.5852C55.2639 26.1444 55.2367 25.4025 55.6757 24.9291C56.1165 24.4538 56.8584 24.4266 57.3318 24.8656L69.4581 36.1067C69.7737 36.3171 69.9805 36.6763 69.9805 37.0826C69.9805 37.732 69.4563 38.2562 68.8087 38.2562ZM45.2563 16.4434C44.9715 16.4434 44.6849 16.34 44.46 16.1314C40.9536 12.8826 38.4903 10.5971 38.4903 10.5971C38.1728 10.3032 38.0441 9.85877 38.1529 9.43975C38.2617 9.02073 38.5937 8.69784 39.0145 8.59626L39.234 8.54366C39.858 8.39491 40.4856 8.77584 40.6435 9.39621C41.5613 10.247 43.5403 12.0827 46.0545 14.4118C46.5297 14.8526 46.5569 15.5945 46.118 16.0679C45.8858 16.3164 45.572 16.4434 45.2563 16.4434Z" fill="#4A60A1"/>
+                                              <path d="M62.9297 69.4889C62.3238 69.4889 61.8105 69.0227 61.7615 68.4096C61.7416 68.1557 61.8032 67.9144 61.9248 67.7131V37.0754C61.9248 36.4278 62.449 35.9036 63.0966 35.9036C63.7442 35.9036 64.2684 36.4278 64.2684 37.0754V68.3044C64.2684 68.9157 63.7986 69.4236 63.1891 69.4726L63.0222 69.4853C62.9914 69.4871 62.9605 69.4889 62.9297 69.4889Z" fill="#4A60A1"/>
+                                              <path d="M57.6601 25.4298C57.0144 25.4298 56.4883 24.9074 56.4883 24.2598L56.4665 13.9257C55.9713 13.7806 55.6158 13.3198 55.6249 12.7793C55.6376 12.1317 56.1763 11.6111 56.8184 11.6292L57.6583 11.6438C58.2968 11.6546 58.8084 12.1752 58.8084 12.8138L58.8319 24.2544C58.8337 24.9019 58.3095 25.428 57.6619 25.4298C57.6619 25.4298 57.6619 25.4298 57.6601 25.4298Z" fill="#4A60A1"/>
+                                              <path d="M56.1821 26.1845C56.1821 26.9702 56.8182 27.6063 57.6039 27.6063C58.389 27.6063 59.0275 26.9707 59.0275 26.1845V12.6688C59.0275 11.8831 58.3913 11.2469 57.6057 11.2469H49.0547C48.2691 11.2469 47.6329 11.8831 47.6329 12.6688V18.2104C47.6329 18.996 48.2691 19.6322 49.0547 19.6322C49.8404 19.6322 50.4765 18.996 50.4765 18.2104V14.0906H56.1821V26.1845Z" fill="#1E2640" stroke="#1E2640" stroke-width="0.5"/>
+                                              <path d="M32.9502 68.3118V44.6611H45.2766V68.3136C45.2766 69.0993 45.9128 69.7354 46.6984 69.7354C47.4845 69.7354 48.1199 69.0972 48.1221 68.3143V68.3136V43.2393C48.1221 42.4537 47.4859 41.8175 46.7003 41.8175H31.5283C30.7427 41.8175 30.1065 42.4537 30.1065 43.2393V68.3118C30.1065 69.0974 30.7427 69.7336 31.5283 69.7336C32.314 69.7336 32.9502 69.0974 32.9502 68.3118Z" fill="#1E2640" stroke="#1E2640" stroke-width="0.5"/>
+                                              <path d="M8.23174 36.0347L8.2315 36.0349C7.65324 36.5648 7.61072 37.4648 8.14171 38.0442C8.42145 38.3502 8.8068 38.5063 9.19129 38.5063C9.53429 38.5063 9.87793 38.3829 10.1506 38.1345L10.1508 38.1342L39.1058 11.6679L67.6465 38.1276L67.6468 38.1279C68.2231 38.6602 69.1211 38.6274 69.6559 38.0508L69.6559 38.0507C70.1888 37.476 70.1556 36.576 69.5791 36.0413L69.5791 36.0413L40.0791 8.69267C39.5372 8.18816 38.6984 8.18635 38.1528 8.6858L8.23174 36.0347Z" fill="#4A60A1" stroke="#4A60A1" stroke-width="0.5"/>
+                                              <path d="M14.8073 69.7353H63.1074L64.2775 68.3117H64.5275V68.311V33.7559C64.5275 32.9702 63.8913 32.3341 63.1056 32.3341C62.32 32.3341 61.6838 32.9702 61.6838 33.7559V66.8899H16.2291V32.702C16.2291 31.9163 15.593 31.2802 14.8073 31.2802C14.0217 31.2802 13.3855 31.9163 13.3855 32.702V68.3135C13.3855 69.0992 14.0217 69.7353 14.8073 69.7353Z" fill="#4A60A1" stroke="#4A60A1" stroke-width="0.5"/>
+                                              </svg>
+                                   <p class="ff-inter fw-semibold fs-xl lh-xl color-36 m-0 pt-sm-4 pt-1">Sell your home</p> 
+                                   <p class=" ff-inter fw-normal fs-sm lh-sm color-88 m-0 pt-sm-4 pt-1 text-lg-start text-center">We do a free evaluation to be sure you want to start selling.</p>             
+                                   <p class=" ff-inter fw-normal fs-sm lh-sm color-4A pt-sm-4 pt-1 ">Read more</p>                                  
+                              </div>
+                         </div>
+                         <div class="col-lg-3 col-md-6 col-12">
+                              <div class="ariaCard p-22 d-flex flex-column align-items-center align-items-lg-start">
+                                      <svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                              <path d="M68.8087 38.2562H68.7869C68.4912 38.2562 68.2064 38.1437 67.9906 37.9442L55.7391 26.5852C55.2639 26.1444 55.2367 25.4025 55.6757 24.9291C56.1164 24.4538 56.8584 24.4266 57.3318 24.8656L69.4581 36.1067C69.7737 36.3171 69.9805 36.6763 69.9805 37.0826C69.9805 37.732 69.4563 38.2562 68.8087 38.2562ZM45.2563 16.4434C44.9715 16.4434 44.6849 16.34 44.46 16.1314C40.9536 12.8826 38.4903 10.5971 38.4903 10.5971C38.1728 10.3032 38.044 9.85877 38.1529 9.43975C38.2617 9.02073 38.5937 8.69784 39.0145 8.59626L39.234 8.54366C39.858 8.39491 40.4856 8.77584 40.6434 9.39621C41.5613 10.247 43.5403 12.0827 46.0544 14.4118C46.5297 14.8526 46.5569 15.5945 46.1179 16.0679C45.8857 16.3164 45.5719 16.4434 45.2563 16.4434Z" fill="#4A60A1"/>
+                                              <path d="M62.9297 69.4889C62.3238 69.4889 61.8105 69.0227 61.7615 68.4096C61.7416 68.1557 61.8032 67.9144 61.9248 67.7131V37.0754C61.9248 36.4278 62.449 35.9036 63.0966 35.9036C63.7442 35.9036 64.2684 36.4278 64.2684 37.0754V68.3044C64.2684 68.9157 63.7986 69.4236 63.1891 69.4726L63.0222 69.4853C62.9914 69.4871 62.9605 69.4889 62.9297 69.4889Z" fill="#4A60A1"/>
+                                              <path d="M57.6601 25.4298C57.0144 25.4298 56.4883 24.9074 56.4883 24.2598L56.4665 13.9257C55.9713 13.7806 55.6158 13.3198 55.6249 12.7793C55.6376 12.1317 56.1763 11.6111 56.8184 11.6292L57.6583 11.6438C58.2968 11.6546 58.8084 12.1752 58.8084 12.8138L58.8319 24.2544C58.8337 24.9019 58.3095 25.428 57.6619 25.4298C57.6619 25.4298 57.6619 25.4298 57.6601 25.4298Z" fill="#4A60A1"/>
+                                              <path d="M56.1821 26.1845C56.1821 26.9702 56.8183 27.6063 57.6039 27.6063C58.3891 27.6063 59.0275 26.9707 59.0275 26.1845V12.6688C59.0275 11.8831 58.3914 11.2469 57.6057 11.2469H49.0547C48.2691 11.2469 47.6329 11.8831 47.6329 12.6688V18.2104C47.6329 18.996 48.2691 19.6322 49.0547 19.6322C49.8404 19.6322 50.4766 18.996 50.4766 18.2104V14.0906H56.1821V26.1845Z" fill="#1E2640" stroke="#1E2640" stroke-width="0.5"/>
+                                              <path d="M8.23174 36.0347L8.2315 36.0349C7.65324 36.5648 7.61072 37.4648 8.14171 38.0442C8.42145 38.3502 8.8068 38.5063 9.19129 38.5063C9.53429 38.5063 9.87793 38.3829 10.1506 38.1345L10.1508 38.1342L39.1058 11.6679L67.6465 38.1276L67.6468 38.1279C68.2231 38.6602 69.1211 38.6274 69.6559 38.0508L69.6559 38.0507C70.1888 37.476 70.1556 36.576 69.5791 36.0413L69.5791 36.0413L40.0791 8.69267C39.5372 8.18816 38.6984 8.18635 38.1528 8.6858L8.23174 36.0347Z" fill="#4A60A1" stroke="#4A60A1" stroke-width="0.5"/>
+                                              <path d="M14.8073 69.7353H63.1074L64.2775 68.3117H64.5275V68.311V33.7559C64.5275 32.9702 63.8913 32.3341 63.1056 32.3341C62.32 32.3341 61.6838 32.9702 61.6838 33.7559V66.8899H16.2291V32.702C16.2291 31.9163 15.593 31.2802 14.8073 31.2802C14.0217 31.2802 13.3855 31.9163 13.3855 32.702V68.3135C13.3855 69.0992 14.0217 69.7353 14.8073 69.7353Z" fill="#4A60A1" stroke="#4A60A1" stroke-width="0.5"/>
+                                              <path d="M35.7375 43.5125C35.4124 42.7149 35.2468 41.8613 35.25 41C35.25 39.665 35.6459 38.3599 36.3876 37.2499C37.1293 36.1399 38.1835 35.2747 39.4169 34.7638C40.6503 34.2529 42.0075 34.1193 43.3169 34.3797C44.6262 34.6402 45.829 35.283 46.773 36.227C47.717 37.171 48.3599 38.3738 48.6203 39.6831C48.8808 40.9925 48.7471 42.3497 48.2362 43.5831C47.7253 44.8165 46.8601 45.8707 45.7501 46.6124C44.6401 47.3541 43.335 47.75 42 47.75C41.1387 47.7532 40.2851 47.5876 39.4875 47.2625V47.2625L38.25 48.5H36V50.75H33.75V53H30V49.25L35.7375 43.5125Z" stroke="#1E2640" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                              <path d="M43.875 40.25C44.4963 40.25 45 39.7463 45 39.125C45 38.5037 44.4963 38 43.875 38C43.2537 38 42.75 38.5037 42.75 39.125C42.75 39.7463 43.2537 40.25 43.875 40.25Z" fill="#1E2640"/>
+                                              </svg>                                                
+                                   <p class="ff-inter fw-semibold fs-xl lh-xl color-36 m-0 pt-sm-4 pt-1">Rent your home</p> 
+                                   <p class=" ff-inter fw-normal fs-sm lh-sm color-88 m-0 pt-sm-4 pt-1 text-lg-start text-center">We do a free evaluation to be sure you want to start selling.</p>             
+                                   <p class=" ff-inter fw-normal fs-sm lh-sm color-4A pt-sm-4 pt-1">Read more</p>                                  
+                              </div>
+                         </div>
+                         <div class="col-lg-3 col-md-6 col-12">
+                              <div class="ariaCard p-22 d-flex flex-column align-items-center align-items-lg-start">
+                                      <svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                              <path d="M68.8087 38.2562H68.7869C68.4912 38.2562 68.2064 38.1437 67.9906 37.9442L55.7391 26.5852C55.2639 26.1444 55.2367 25.4025 55.6757 24.9291C56.1164 24.4538 56.8584 24.4266 57.3318 24.8656L69.4581 36.1067C69.7737 36.3171 69.9805 36.6763 69.9805 37.0826C69.9805 37.732 69.4563 38.2562 68.8087 38.2562ZM45.2563 16.4434C44.9715 16.4434 44.6849 16.34 44.46 16.1314C40.9536 12.8826 38.4903 10.5971 38.4903 10.5971C38.1728 10.3032 38.044 9.85877 38.1529 9.43975C38.2617 9.02073 38.5937 8.69784 39.0145 8.59626L39.234 8.54366C39.858 8.39491 40.4856 8.77584 40.6434 9.39621C41.5613 10.247 43.5403 12.0827 46.0544 14.4118C46.5297 14.8526 46.5569 15.5945 46.1179 16.0679C45.8857 16.3164 45.5719 16.4434 45.2563 16.4434Z" fill="#4A60A1"/>
+                                              <path d="M62.9297 69.4889C62.3238 69.4889 61.8105 69.0227 61.7615 68.4096C61.7416 68.1557 61.8032 67.9144 61.9248 67.7131V37.0754C61.9248 36.4278 62.449 35.9036 63.0966 35.9036C63.7442 35.9036 64.2684 36.4278 64.2684 37.0754V68.3044C64.2684 68.9157 63.7986 69.4236 63.1891 69.4726L63.0222 69.4853C62.9914 69.4871 62.9605 69.4889 62.9297 69.4889Z" fill="#4A60A1"/>
+                                              <path d="M57.6602 25.4298C57.0144 25.4298 56.4884 24.9074 56.4884 24.2598L56.4666 13.9257C55.9714 13.7806 55.6159 13.3198 55.6249 12.7793C55.6376 12.1317 56.1764 11.6111 56.8185 11.6292L57.6584 11.6438C58.2969 11.6546 58.8084 12.1752 58.8084 12.8138L58.832 24.2544C58.8338 24.9019 58.3096 25.428 57.662 25.4298C57.662 25.4298 57.662 25.4298 57.6602 25.4298Z" fill="#4A60A1"/>
+                                              <path d="M56.1821 26.1845C56.1821 26.9702 56.8183 27.6063 57.6039 27.6063C58.3891 27.6063 59.0275 26.9707 59.0275 26.1845V12.6688C59.0275 11.8831 58.3914 11.2469 57.6057 11.2469H49.0547C48.2691 11.2469 47.6329 11.8831 47.6329 12.6688V18.2104C47.6329 18.996 48.2691 19.6322 49.0547 19.6322C49.8404 19.6322 50.4766 18.996 50.4766 18.2104V14.0906H56.1821V26.1845Z" fill="#1E2640" stroke="#1E2640" stroke-width="0.5"/>
+                                              <path d="M8.23174 36.0347L8.2315 36.0349C7.65324 36.5648 7.61072 37.4648 8.14171 38.0442C8.42145 38.3502 8.8068 38.5063 9.19129 38.5063C9.53429 38.5063 9.87793 38.3829 10.1506 38.1345L10.1508 38.1342L39.1058 11.6679L67.6465 38.1276L67.6468 38.1279C68.2231 38.6602 69.1211 38.6274 69.6559 38.0508L69.6559 38.0507C70.1888 37.476 70.1556 36.576 69.5791 36.0413L69.5791 36.0413L40.0791 8.69267C39.5372 8.18816 38.6984 8.18635 38.1528 8.6858L8.23174 36.0347Z" fill="#4A60A1" stroke="#4A60A1" stroke-width="0.5"/>
+                                              <path d="M14.8073 69.7353H63.1074L64.2775 68.3117H64.5275V68.311V33.7559C64.5275 32.9702 63.8913 32.3341 63.1056 32.3341C62.32 32.3341 61.6838 32.9702 61.6838 33.7559V66.8899H16.2291V32.702C16.2291 31.9163 15.593 31.2802 14.8073 31.2802C14.0217 31.2802 13.3855 31.9163 13.3855 32.702V68.3135C13.3855 69.0992 14.0217 69.7353 14.8073 69.7353Z" fill="#4A60A1" stroke="#4A60A1" stroke-width="0.5"/>
+                                              <path d="M50.6875 40.65H27.3125C26.7257 40.65 26.25 41.1257 26.25 41.7125V58.7125C26.25 59.2993 26.7257 59.775 27.3125 59.775H50.6875C51.2743 59.775 51.75 59.2993 51.75 58.7125V41.7125C51.75 41.1257 51.2743 40.65 50.6875 40.65Z" stroke="#1E2640" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                              <path d="M44.3125 40.65V38.525C44.3125 37.9614 44.0886 37.4209 43.6901 37.0224C43.2916 36.6239 42.7511 36.4 42.1875 36.4H35.8125C35.2489 36.4 34.7084 36.6239 34.3099 37.0224C33.9114 37.4209 33.6875 37.9614 33.6875 38.525V40.65" stroke="#1E2640" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                              <path d="M51.75 47.8618C47.8749 50.1029 43.4765 51.2804 39 51.2751C34.5227 51.2868 30.1226 50.1088 26.25 47.8618" stroke="#1E2640" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                              <path d="M37.4062 47.0249H40.5938" stroke="#1E2640" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                              </svg>                                                                                           
+                                   <p class="ff-inter fw-semibold fs-xl lh-xl color-36 m-0 pt-sm-4 pt-1">Buy a home</p> 
+                                   <p class=" ff-inter fw-normal fs-sm lh-sm color-88 m-0 pt-sm-4 pt-1 text-lg-start text-center">We do a free evaluation to be sure you want to start selling.</p>             
+                                   <p class=" ff-inter fw-normal fs-sm lh-sm color-4A pt-sm-4 pt-1 ">Read more</p>                                  
+                              </div>
+                         </div>
+                         <div class="col-lg-3 col-md-6 col-12">
+                              <div class="ariaCard p-22 d-flex flex-column align-items-center align-items-lg-start">
+                                      <svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                              <path d="M68.8087 38.2562H68.7869C68.4912 38.2562 68.2064 38.1437 67.9906 37.9442L55.7391 26.5852C55.2639 26.1444 55.2367 25.4025 55.6757 24.9291C56.1164 24.4538 56.8584 24.4266 57.3318 24.8656L69.4581 36.1067C69.7737 36.3171 69.9805 36.6763 69.9805 37.0826C69.9805 37.732 69.4563 38.2562 68.8087 38.2562ZM45.2563 16.4434C44.9715 16.4434 44.6849 16.34 44.46 16.1314C40.9536 12.8826 38.4903 10.5971 38.4903 10.5971C38.1728 10.3032 38.044 9.85877 38.1529 9.43975C38.2617 9.02073 38.5937 8.69784 39.0145 8.59626L39.234 8.54366C39.858 8.39491 40.4856 8.77584 40.6434 9.39621C41.5613 10.247 43.5403 12.0827 46.0544 14.4118C46.5297 14.8526 46.5569 15.5945 46.1179 16.0679C45.8857 16.3164 45.5719 16.4434 45.2563 16.4434Z" fill="#4A60A1"/>
+                                              <path d="M62.9297 69.4889C62.3238 69.4889 61.8105 69.0227 61.7615 68.4096C61.7416 68.1557 61.8032 67.9144 61.9248 67.7131V37.0754C61.9248 36.4278 62.449 35.9036 63.0966 35.9036C63.7442 35.9036 64.2684 36.4278 64.2684 37.0754V68.3044C64.2684 68.9157 63.7986 69.4236 63.1891 69.4726L63.0222 69.4853C62.9914 69.4871 62.9605 69.4889 62.9297 69.4889Z" fill="#4A60A1"/>
+                                              <path d="M57.6602 25.4298C57.0144 25.4298 56.4884 24.9074 56.4884 24.2598L56.4666 13.9257C55.9714 13.7806 55.6159 13.3198 55.6249 12.7793C55.6376 12.1317 56.1764 11.6111 56.8185 11.6292L57.6584 11.6438C58.2969 11.6546 58.8084 12.1752 58.8084 12.8138L58.832 24.2544C58.8338 24.9019 58.3096 25.428 57.662 25.4298C57.662 25.4298 57.662 25.4298 57.6602 25.4298Z" fill="#4A60A1"/>
+                                              <path d="M56.1821 26.1845C56.1821 26.9702 56.8183 27.6063 57.6039 27.6063C58.3891 27.6063 59.0275 26.9707 59.0275 26.1845V12.6688C59.0275 11.8831 58.3914 11.2469 57.6057 11.2469H49.0547C48.2691 11.2469 47.6329 11.8831 47.6329 12.6688V18.2104C47.6329 18.996 48.2691 19.6322 49.0547 19.6322C49.8404 19.6322 50.4766 18.996 50.4766 18.2104V14.0906H56.1821V26.1845Z" fill="#1E2640" stroke="#1E2640" stroke-width="0.5"/>
+                                              <path d="M8.23174 36.0347L8.2315 36.0349C7.65324 36.5648 7.61072 37.4648 8.14171 38.0442C8.42145 38.3502 8.8068 38.5063 9.19129 38.5063C9.53429 38.5063 9.87793 38.3829 10.1506 38.1345L10.1508 38.1342L39.1058 11.6679L67.6465 38.1276L67.6468 38.1279C68.2231 38.6602 69.1211 38.6274 69.6559 38.0508L69.6559 38.0507C70.1888 37.476 70.1556 36.576 69.5791 36.0413L69.5791 36.0413L40.0791 8.69267C39.5372 8.18816 38.6984 8.18635 38.1528 8.6858L8.23174 36.0347Z" fill="#4A60A1" stroke="#4A60A1" stroke-width="0.5"/>
+                                              <path d="M14.8073 69.7353H63.1074L64.2775 68.3117H64.5275V68.311V33.7559C64.5275 32.9702 63.8913 32.3341 63.1056 32.3341C62.32 32.3341 61.6838 32.9702 61.6838 33.7559V66.8899H16.2291V32.702C16.2291 31.9163 15.593 31.2802 14.8073 31.2802C14.0217 31.2802 13.3855 31.9163 13.3855 32.702V68.3135C13.3855 69.0992 14.0217 69.7353 14.8073 69.7353Z" fill="#4A60A1" stroke="#4A60A1" stroke-width="0.5"/>
+                                              <path d="M37.875 51.75C42.2242 51.75 45.75 48.2242 45.75 43.875C45.75 39.5258 42.2242 36 37.875 36C33.5258 36 30 39.5258 30 43.875C30 48.2242 33.5258 51.75 37.875 51.75Z" stroke="#1E2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                              <path d="M43.4437 49.4438L48 54.0001" stroke="#1E2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                              </svg>                                                                                                                                       
+                                   <p class="ff-inter fw-semibold fs-xl lh-xl color-36 m-0 pt-sm-4 pt-1">Free marketing</p> 
+                                   <p class=" ff-inter fw-normal fs-sm lh-sm color-88 m-0 pt-sm-4 pt-1 text-lg-start text-center">We do a free evaluation to be sure you want to start selling.</p>             
+                                   <p class=" ff-inter fw-normal fs-sm lh-sm color-4A pt-sm-4 pt-1 ">Read more</p>                                  
+                              </div>
+                         </div>
+                      </div>
+                  </div>
+              </div>
+      </div>
+  </section>
+    <!-- ===================================   Letest Properties of Rent   ================================ -->
+  <section class="py-100">
+      <div class=" container my-container">
+              <h2 class=" ff-inter fw-semibold fs-3xl lh-3xl text-center color-1E m-0">Letest Properties of Rent</h2>
+              <p class="ff-inter fw-normal fs-2md lh-2md text-center color-88 max-w-578 mx-auto pt-4 ">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin sodales ultrices nulla blandit volutpat.</p>
+              <div class="row">
+                      <div class=" col-lg-4 col-md-6 col-12 pt-4 ">
+                              <div class=" crds mx-auto mx-md-0">
+                                      <img  class=" w-100 mb-4 " src="./assets/images/png/Home1.webp" alt="Home1">
+                                      <div class=" px-25">
+                                            <h2 class=" ff-inter fw-medium fs-lg lh-1lg pb-3 mb-0 ps-4  ">92 ALLIUM PLACE, ORLANDO FL <span class=" d-xl-block ">32827</span></h2>
+                                            <p class=" ff-inter fw-semibold fs-2md lh-2md pb-3 color-4A ps-4">$ 590,693</p>
+                                            <div class="d-flex align-items-center gap-4 mb-3 ">                                                            
+                                                          <div class=" d-flex  align-items-center  gap-1 ps-4">
+                                                                  <span class=" d-flex align-items-center gap-1">
+                                                                      <img src="./assets/images/svg/Car.svg" alt="carSvg">
+                                                                      </span>
+                                                                      <p class=" ff-inter fw-medium text-sm lh-sm color-6D m-0">4</p>
+                                                          </div>
+                                                  
+                                                          <span class=" d-flex align-items-center gap-1  ">
+                                                              <img src="./assets/images/svg/Bathtub.svg" alt="bathtubSvg">                                                                        
+                                                              <p class=" ff-inter fw-medium text-sm lh-sm color-6D m-0">4</p> 
+                                                          </span>                                                                                                                       
+                                                       <span class=" d-flex align-items-center gap-1 ">
+                                                              <img src="./assets/images/svg/ArrowsOut.svg" alt="arrowsOutSvg">
+                                                              <p class=" ff-inter fw-medium text-sm lh-sm color-6D m-0">2,096.00 ft</p>
+                                                      </span>
+                                            </div>
+                                            <div class=" line">
+                                                 <div class="d-flex pt-3  align-items-center  justify-content-between ps-4">
+                                                         <div class=" d-flex align-items-center gap-2 ">
+                                                              <img src="./assets/images/png/person1.webp" alt="person1">
+                                                              <p class="ff-inter fw-medium fs-sm lh-1sm text-black m-0">Jenny Wilson</p>
+                                                         </div>
+                                                         <div class=" d-flex  align-items-center gap-2  pe-4 ps-2 ">
+                                                          <img src="./assets/images/svg/Share.svg" alt="frameSvg">
+                                                          <img src="./assets/images/svg/Heart.svg" alt="heartSvg">
+                                                          <img src="./assets/images/svg/Plus.svg" alt="addSvg">
+                                                         </div>
+                                                 </div>
+                                            </div>
+                                      </div>
+                              </div>
+                      </div>
+                      <div class=" col-lg-4 col-md-6 col-12 pt-4 ">
+                              <div class=" crds mx-auto mx-md-0">
+                                      <img  class=" w-100 mb-4" src="./assets/images/png/Home2.webp" alt="Home1">
+                                      <div class=" px-25">
+                                            <h2 class=" ff-inter fw-medium fs-lg lh-1lg pb-3 mb-0 ps-4  ">92 ALLIUM PLACE, ORLANDO FL <span class=" d-xl-block ">32827</span></h2>
+                                            <p class=" ff-inter fw-semibold fs-2md lh-2md pb-3 color-4A ps-4">$ 590,693</p>
+                                            <div class="d-flex align-items-center gap-4 mb-3 ">                                                            
+                                                          <div class=" d-flex  align-items-center  gap-1 ps-4">
+                                                                  <span class=" d-flex align-items-center gap-1">
+                                                                    <img src="./assets/images/svg/Car.svg" alt="carSvg">
+                                                                      </span>
+                                                                      <p class=" ff-inter fw-medium text-sm lh-sm color-6D m-0">4</p>
+                                                          </div>
+                                                  
+                                                          <span class=" d-flex align-items-center gap-1  ">
+                                                            <img src="./assets/images/svg/Bathtub.svg" alt="bathtubSvg">                                                                                                                                             
+                                                              <p class=" ff-inter fw-medium text-sm lh-sm color-6D m-0">4</p> 
+                                                          </span>                                                                                                                       
+                                                       <span class=" d-flex align-items-center gap-1 ">
+                                                        <img src="./assets/images/svg/ArrowsOut.svg" alt="arrowsOutSvg">
+                                                              <p class=" ff-inter fw-medium text-sm lh-sm color-6D m-0">2,096.00 ft</p>
+                                                      </span>
+                                            </div>
+                                            <div class=" line">
+                                                 <div class="d-flex pt-3  align-items-center  justify-content-between ps-4">
+                                                         <div class=" d-flex align-items-center gap-2 ">
+                                                          <img src="./assets/images/png/person2.webp" alt="person1">
+                                                              <p class="ff-inter fw-medium fs-sm lh-1sm text-black m-0">Jenny Wilson</p>
+                                                         </div>
+                                                         <div class=" d-flex  align-items-center gap-2  pe-4 ps-2 ">
+                                                          <img src="./assets/images/svg/Share.svg" alt="frameSvg">
+                                                          <img src="./assets/images/svg/Heart.svg" alt="heartSvg">
+                                                          <img src="./assets/images/svg/Plus.svg" alt="addSvg">
+                                                         </div>
+                                                 </div>
+                                            </div>
+                                      </div>
+                              </div>
+                      </div>
+                      <div class=" col-lg-4 col-md-6 col-12 pt-4 ">
+                              <div class=" crds mx-auto mx-md-0">
+                                      <img  class=" w-100 mb-4" src="./assets/images/png/Home3.webp" alt="Home1">
+                                      <div class=" px-25">
+                                            <h2 class=" ff-inter fw-medium fs-lg lh-1lg pb-3 mb-0 ps-4  ">92 ALLIUM PLACE, ORLANDO FL <span class=" d-xl-block ">32827</span></h2>
+                                            <p class=" ff-inter fw-semibold fs-2md lh-2md pb-3 color-4A ps-4">$ 590,693</p>
+                                            <div class="d-flex align-items-center gap-4 mb-3 ">                                                            
+                                                          <div class=" d-flex  align-items-center  gap-1 ps-4">
+                                                                  <span class=" d-flex align-items-center gap-1">
+                                                                    <img src="./assets/images/svg/Car.svg" alt="carSvg">
+                                                                      </span>
+                                                                      <p class=" ff-inter fw-medium text-sm lh-sm color-6D m-0">4</p>
+                                                          </div>
+                                                  
+                                                          <span class=" d-flex align-items-center gap-1  ">
+                                                            <img src="./assets/images/svg/Bathtub.svg" alt="bathtubSvg">                                                                                                                                               
+                                                              <p class=" ff-inter fw-medium text-sm lh-sm color-6D m-0">4</p> 
+                                                          </span>                                                                                                                       
+                                                       <span class=" d-flex align-items-center gap-1 ">
+                                                        <img src="./assets/images/svg/ArrowsOut.svg" alt="arrowsOutSvg">
+                                                              <p class=" ff-inter fw-medium text-sm lh-sm color-6D m-0">2,096.00 ft</p>
+                                                      </span>
+                                            </div>
+                                            <div class=" line">
+                                                 <div class="d-flex pt-3  align-items-center  justify-content-between ps-4">
+                                                         <div class=" d-flex align-items-center gap-2 ">
+                                                          <img src="./assets/images/png/person3.webp" alt="person1">
+                                                              <p class="ff-inter fw-medium fs-sm lh-1sm text-black m-0">Jenny Wilson</p>
+                                                         </div>
+                                                         <div class=" d-flex  align-items-center gap-2  pe-4 ps-2 ">
+                                                          <img src="./assets/images/svg/Share.svg" alt="frameSvg">
+                                                          <img src="./assets/images/svg/Heart.svg" alt="heartSvg">
+                                                          <img src="./assets/images/svg/Plus.svg" alt="addSvg">
+                                                         </div>
+                                                 </div>
+                                            </div>
+                                      </div>
+                              </div>
+                      </div>
+                      <div class=" col-lg-4 col-md-6 col-12 pt-4 ">
+                              <div class=" crds mx-auto mx-md-0">
+                                      <img  class=" w-100 mb-4" src="./assets/images/png/Home4.webp" alt="Home1">
+                                      <div class=" px-25">
+                                            <h2 class=" ff-inter fw-medium fs-lg lh-1lg pb-3 mb-0 ps-4  ">92 ALLIUM PLACE, ORLANDO FL <span class=" d-xl-block ">32827</span></h2>
+                                            <p class=" ff-inter fw-semibold fs-2md lh-2md pb-3 color-4A ps-4">$ 590,693</p>
+                                            <div class="d-flex align-items-center gap-4 mb-3 ">                                                            
+                                                          <div class=" d-flex  align-items-center  gap-1 ps-4">
+                                                                  <span class=" d-flex align-items-center gap-1">
+                                                                    <img src="./assets/images/svg/Car.svg" alt="carSvg">
+                                                                      </span>
+                                                                      <p class=" ff-inter fw-medium text-sm lh-sm color-6D m-0">4</p>
+                                                          </div>
+                                                  
+                                                          <span class=" d-flex align-items-center gap-1  ">
+                                                            <img src="./assets/images/svg/Bathtub.svg" alt="bathtubSvg">                                                                                                                                             
+                                                              <p class=" ff-inter fw-medium text-sm lh-sm color-6D m-0">4</p> 
+                                                          </span>                                                                                                                       
+                                                       <span class=" d-flex align-items-center gap-1 ">
+                                                        <img src="./assets/images/svg/ArrowsOut.svg" alt="arrowsOutSvg">
+                                                              <p class=" ff-inter fw-medium text-sm lh-sm color-6D m-0">2,096.00 ft</p>
+                                                      </span>
+                                            </div>
+                                            <div class=" line">
+                                                 <div class="d-flex pt-3  align-items-center  justify-content-between ps-4">
+                                                         <div class=" d-flex align-items-center gap-2 ">
+                                                          <img src="./assets/images/png/person1.webp" alt="person1">
+                                                              <p class="ff-inter fw-medium fs-sm lh-1sm text-black m-0">Jenny Wilson</p>
+                                                         </div>
+                                                         <div class=" d-flex  align-items-center gap-2  pe-4 ps-2 ">
+                                                          <img src="./assets/images/svg/Share.svg" alt="frameSvg">
+                                                          <img src="./assets/images/svg/Heart.svg" alt="heartSvg">
+                                                          <img src="./assets/images/svg/Plus.svg" alt="addSvg">
+                                                         </div>
+                                                 </div>
+                                            </div>
+                                      </div>
+                              </div>
+                      </div>
+                      <div class=" col-lg-4 col-md-6 col-12 pt-4 ">
+                              <div class=" crds mx-auto mx-md-0">
+                                      <img  class=" w-100 mb-4" src="./assets/images/png/Home5.webp" alt="Home1">
+                                      <div class=" px-25">
+                                            <h2 class=" ff-inter fw-medium fs-lg lh-1lg pb-3 mb-0 ps-4  ">92 ALLIUM PLACE, ORLANDO FL <span class=" d-xl-block ">32827</span></h2>
+                                            <p class=" ff-inter fw-semibold fs-2md lh-2md pb-3 color-4A ps-4">$ 590,693</p>
+                                            <div class="d-flex align-items-center gap-4 mb-3 ">                                                            
+                                                          <div class=" d-flex  align-items-center  gap-1 ps-4">
+                                                                  <span class=" d-flex align-items-center gap-1">
+                                                                    <img src="./assets/images/svg/Car.svg" alt="carSvg">
+                                                                      </span>
+                                                                      <p class=" ff-inter fw-medium text-sm lh-sm color-6D m-0">4</p>
+                                                          </div>
+                                                  
+                                                          <span class=" d-flex align-items-center gap-1  ">
+                                                            <img src="./assets/images/svg/Bathtub.svg" alt="bathtubSvg">                                                                                                                                           
+                                                              <p class=" ff-inter fw-medium text-sm lh-sm color-6D m-0">4</p> 
+                                                          </span>                                                                                                                       
+                                                       <span class=" d-flex align-items-center gap-1 ">
+                                                        <img src="./assets/images/svg/ArrowsOut.svg" alt="arrowsOutSvg">
+                                                              <p class=" ff-inter fw-medium text-sm lh-sm color-6D m-0">2,096.00 ft</p>
+                                                      </span>
+                                            </div>
+                                            <div class=" line">
+                                                 <div class="d-flex pt-3  align-items-center  justify-content-between ps-4">
+                                                         <div class=" d-flex align-items-center gap-2 ">
+                                                          <img src="./assets/images/png/person2.webp" alt="person1">
+                                                              <p class="ff-inter fw-medium fs-sm lh-1sm text-black m-0">Jenny Wilson</p>
+                                                         </div>
+                                                         <div class=" d-flex  align-items-center gap-2  pe-4 ps-2 ">
+                                                          <img src="./assets/images/svg/Share.svg" alt="frameSvg">
+                                                          <img src="./assets/images/svg/Heart.svg" alt="heartSvg">
+                                                          <img src="./assets/images/svg/Plus.svg" alt="addSvg">
+                                                         </div>
+                                                 </div>
+                                            </div>
+                                      </div>
+                              </div>
+                      </div>
+                      <div class=" col-lg-4 col-md-6 col-12 pt-4 ">
+                              <div class=" crds mx-auto mx-md-0">
+                                      <img  class=" w-100 mb-4" src="./assets/images/png/Home9.webp" alt="Home1">
+                                      <div class=" px-25">
+                                            <h2 class=" ff-inter fw-medium fs-lg lh-1lg pb-3 mb-0 ps-4  ">92 ALLIUM PLACE, ORLANDO FL <span class=" d-xl-block ">32827</span></h2>
+                                            <p class=" ff-inter fw-semibold fs-2md lh-2md pb-3 color-4A ps-4">$ 590,693</p>
+                                            <div class="d-flex align-items-center gap-4 mb-3 ">                                                            
+                                                          <div class=" d-flex  align-items-center  gap-1 ps-4">
+                                                                  <span class=" d-flex align-items-center gap-1">
+                                                                    <img src="./assets/images/svg/Car.svg" alt="carSvg">
+                                                                      </span>
+                                                                      <p class=" ff-inter fw-medium text-sm lh-sm color-6D m-0">4</p>
+                                                          </div>
+                                                  
+                                                          <span class=" d-flex align-items-center gap-1  ">
+                                                            <img src="./assets/images/svg/Bathtub.svg" alt="bathtubSvg">                                                                                                                                              
+                                                              <p class=" ff-inter fw-medium text-sm lh-sm color-6D m-0">4</p> 
+                                                          </span>                                                                                                                       
+                                                       <span class=" d-flex align-items-center gap-1 ">
+                                                        <img src="./assets/images/svg/ArrowsOut.svg" alt="arrowsOutSvg">
+                                                              <p class=" ff-inter fw-medium text-sm lh-sm color-6D m-0">2,096.00 ft</p>
+                                                      </span>
+                                            </div>
+                                            <div class=" line">
+                                                 <div class="d-flex pt-3  align-items-center  justify-content-between ps-4">
+                                                         <div class=" d-flex align-items-center gap-2 ">
+                                                          <img src="./assets/images/png/person3.webp" alt="person1">
+                                                              <p class="ff-inter fw-medium fs-sm lh-1sm text-black m-0">Jenny Wilson</p>
+                                                         </div>
+                                                         <div class=" d-flex  align-items-center gap-2  pe-4 ps-2 ">
+                                                            <img src="./assets/images/svg/Share.svg" alt="frameSvg">
+                                                            <img src="./assets/images/svg/Heart.svg" alt="heartSvg">
+                                                            <img src="./assets/images/svg/Plus.svg" alt="addSvg">
+                                                         </div>
+                                                 </div>
+                                            </div>
+                                      </div>
+                              </div>
+                      </div>
+              </div>
+      </div>
+  </section>
+    <!-- ===================================   Letest Properties of Rent2   ================================ -->
+    <section class=" pt-5 mt-md-5 mt-sm-3">
+    <div class=" container my-container ">
+      <h2 class=" ff-inter fw-semibold fs-3xl lh-3xl color-1E text-center mb-sm-4 mb-3">Letest Properties of Rent</h2>
+      <p class=" ff-inter fw-normal fs-2md lh-2md color-88 text-center mb-md-5 mb-3 ">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere <span class=" d-md-block">cubilia curae; Proin sodales ultrices nulla blandit volutpat.</span></p>
+    </div>
+      <div class=" my-container2 container w-100 overflow-hidden position-relative ">
+      <div class=" slider">
+<div class="  position-relative overflow-hidden max-w-312 slider-hover">
+  <img src="./assets/images/png/SliderImg1.png" alt="SliderImg1" class=" w-100 h-100 ">
+  <div class=" position-absolute w-100 h-100 d-flex align-items-center justify-content-center z-1 start-0 top-0 slider-hover-btn">
+    <button class=" ff-inter fw-medium lh-sm fs-sm text-white navbtn">
+      View Detail
+    </button>
+  </div>
+</div>
+<div class="  position-relative overflow-hidden max-w-312 slider-hover">
+  <img src="./assets/images/png/SliderImg2.png" alt="SliderImg1" class=" w-100 h-100 ">
+  <div class=" position-absolute w-100 h-100 d-flex align-items-center justify-content-center z-1 start-0 top-0 slider-hover-btn">
+    <button class=" ff-inter fw-medium lh-sm fs-sm text-white navbtn">
+      View Detail
+    </button>
+  </div>
+</div>
+<div class="  position-relative overflow-hidden max-w-312 slider-hover">
+  <img src="./assets/images/png/SliderImg3.png" alt="SliderImg1" class=" w-100 h-100 ">
+  <div class=" position-absolute w-100 h-100 d-flex align-items-center justify-content-center z-1 start-0 top-0 slider-hover-btn">
+    <button class=" ff-inter fw-medium lh-sm fs-sm text-white navbtn">
+      View Detail
+    </button>
+  </div>
+</div>
+<div class="  position-relative overflow-hidden max-w-312 slider-hover">
+  <img src="./assets/images/png/SliderImg4.png" alt="SliderImg1" class=" w-100 h-100 ">
+  <div class=" position-absolute w-100 h-100 d-flex align-items-center justify-content-center z-1 start-0 top-0 slider-hover-btn">
+    <button class=" ff-inter fw-medium lh-sm fs-sm text-white navbtn">
+      View Detail
+    </button>
+  </div>
+</div>
+<div class="  position-relative overflow-hidden max-w-312 slider-hover">
+  <img src="./assets/images/png/SliderImg2.png" alt="SliderImg1" class=" w-100 h-100 ">
+  <div class=" position-absolute w-100 h-100 d-flex align-items-center justify-content-center z-1 start-0 top-0 slider-hover-btn">
+    <button class=" ff-inter fw-medium lh-sm fs-sm text-white navbtn">
+      View Detail
+    </button>
+  </div>
+</div>
+<div class="  position-relative overflow-hidden max-w-312 slider-hover">
+  <img src="./assets/images/png/SliderImg4.png" alt="SliderImg1" class=" w-100 h-100 ">
+  <div class=" position-absolute w-100 h-100 d-flex align-items-center justify-content-center z-1 start-0 top-0 slider-hover-btn">
+    <button class=" ff-inter fw-medium lh-sm fs-sm text-white navbtn">
+      View Detail
+    </button>
+  </div>
+</div>
+<div class="  position-relative overflow-hidden max-w-312 slider-hover">
+  <img src="./assets/images/png/SliderImg4.png" alt="SliderImg1" class=" w-100 h-100 ">
+  <div class=" position-absolute w-100 h-100 d-flex align-items-center justify-content-center z-1 start-0 top-0 slider-hover-btn">
+    <button class=" ff-inter fw-medium lh-sm fs-sm text-white navbtn">
+      View Detail
+    </button>
+  </div>
+</div>
+      </div>
+    </div>
+    <div class=" d-sm-flex align-items-center gap-4 justify-content-center px-3 arrow-mt">
+      <button class=" prev-btn border-0">
+        <img src="./assets/images/svg/ArrowLeft.svg" alt="">
+      </button>
+      <button class=" nxt-btn border-0">
+        <img src="./assets/images/svg/ArrowRight.svg" alt="">
+      </button>
+    </div>
+  </section>
+    <!-- ===================================   Letest Properties of Rent2   ================================ -->
+  <section class=" py-5 my-md-5 my-sm-3">
+    <div class="bg-livingImg d-flex flex-column justify-content-center align-items-center  py-3 py-sm-0">
+            <div class=" container my-container">
+                    <h2 class=" ff-inter fw-semibold fs-3xl lh-3xl text-center text-white m-0">Find Best Place For Living</h2>
+                    <p class="ff-inter fw-normal fs-2md lh-2md text-center text-white max-w-578 mx-auto pt-4 ">Spend vacations in best hotels and resorts find the great place of your choice using different searching options.</p>
+                    <div class=" d-flex justify-content-center pt-3"><button class=" ff-inter fw-medium fs-sm lh-sm text-white btn-contact">Contact Us</button></div>
+            </div>
+    </div>
+</section>
+    <!-- ===================================   FOOTER   ================================ -->
+<footer class=" py-sm-100 py-24">
+  <div class=" container my-container">
+     <div class="row">
+          <div class="col-lg-4 col-12 ">
+                  <img src="./assets/images/svg/Footerlogo.svg" alt="footer">
+                  <p class=" fw-semibold fs-xl lh-xl ff-public color-1B pt-sm-4 pt-2  ">Contact Us</p>
+                  <p class="ff-public fw-normal fs-sm lh-sm color-6D">Call : +123 400 123</p>
+                  <p class="ff-public fw-normal fs-sm lh-sm color-6D max-w-312">Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
+                  <p class="ff-public fw-normal fs-sm lh-sm color-36">Email: example@mail.com</p>
+                  <div class=" d-flex gap-3 ">
+                          <a href="https://www.facebook.com/" target="_blank"><img src="./assets/images/svg/Facebbok1.png" alt="fbSvg"></a>
+                          <a href="https://en.wikipedia.org/wiki/Earth" target="_blank"><img src="./assets/images/svg/Earth2.svg" alt="broserSvg"></a>
+                          <a href="https://in.linkedin.com/" target="_blank"><img src="./assets/images/svg/Linkedin2.svg" alt="linkedSvg"></a>
+                          <a href="https://www.instagram.com/" target="_blank"><img src="./assets/images/svg/Insta2.svg" alt="instaSvg"></a>
+                          <a href=""><img src="./assets/images/svg/Behance2.svg" alt="socialSvg"></a>
+                  </div>
+          </div>
+          <div class="col-lg-8 col-12 ">
+                  <div class="row pt-2 ">
+                          <div class=" col-sm-4 col-6 ">
+                                  <ul class=" ">
+                                          <li><a href="" class="text-decoration-none ff-public fw-semibold fs-xl lh-xl color-1B">Features</a></li>
+                                          <li class=" pt-sm-4 pt-2 "><a href="" class="text-decoration-none ff-public fw-normal fs-sm lh-sm color-6D">Home</a></li>
+                                          <li class=" pt-sm-3 pt-1 "><a href="" class="text-decoration-none ff-public fw-normal fs-sm lh-sm color-6D">Become a Host</a></li>
+                                          <li class=" pt-sm-3 pt-1"><a href="" class="text-decoration-none ff-public fw-normal fs-sm lh-sm color-6D">Pricing</a></li>
+                                          <li class=" pt-sm-3 pt-1 "><a href="" class="text-decoration-none ff-public fw-normal fs-sm lh-sm color-6D">Blog</a></li>
+                                          <li class=" pt-sm-3 pt-1 "><a href="" class="text-decoration-none ff-public fw-normal fs-sm lh-sm color-6D">Contact</a></li>
+                                  </ul>
+                          </div>
+                          <div class=" col-sm-4 col-6">
+                                  <ul>
+                                          <li><a href="" class="text-decoration-none ff-public fw-semibold fs-xl lh-xl color-1B">Company</a></li>
+                                          <li class=" pt-sm-4 pt-2"><a href="" class="text-decoration-none ff-public fw-normal fs-sm lh-sm color-6D">About Us</a></li>
+                                          <li class=" pt-sm-3 pt-1 "><a href="" class="text-decoration-none ff-public fw-normal fs-sm lh-sm color-6D">Press</a></li>
+                                          <li class=" pt-sm-3 pt-1 "><a href="" class="text-decoration-none ff-public fw-normal fs-sm lh-sm color-6D">Contact</a></li>
+                                          <li class=" pt-sm-3 pt-1 "><a href="" class="text-decoration-none ff-public fw-normal fs-sm lh-sm color-6D">Careers</a></li>
+                                          <li class=" pt-sm-3 pt-1 "><a href="" class="text-decoration-none ff-public fw-normal fs-sm lh-sm color-6D">Blog</a></li>
+                                  </ul>
+                          </div>
+                          <div class=" col-sm-4 col-6">
+                                  <ul>
+                                          <li><a href="" class="text-decoration-none ff-public fw-semibold fs-xl lh-xl color-1B">Team and policies</a></li>
+                                          <li class=" pt-sm-4 pt-2"><a href="" class="text-decoration-none ff-public fw-normal fs-sm lh-sm color-6D">Terms of servies</a></li>
+                                          <li class=" pt-sm-3 pt-1 "><a href="" class="text-decoration-none ff-public fw-normal fs-sm lh-sm color-6D">Become a Host</a></li>
+                                          <li class=" pt-sm-3 pt-1 "><a href="" class="text-decoration-none ff-public fw-normal fs-sm lh-sm color-6D">Privacy Policy</a></li>
+                                          <li class=" pt-sm-3 pt-1 "><a href="" class="text-decoration-none ff-public fw-normal fs-sm lh-sm color-6D">Security</a></li>
+                                  </ul>
+                          </div>
+                         
+                  </div>
+          </div>
+     </div>
+  </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+      $('.slider').slick({
+  dots: false,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 4.5,
+  slidesToScroll: 1,
+  arrows: true,
+  prevArrow: 'prev-btn',
+  nextArrow: 'nxt-btn',
+  responsive: [
+    {
+      breakpoint: 1600,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        infinite: true,
+        arrows: true,
+  prevArrow: 'prev-btn',
+  nextArrow: 'nxt-btn',
+      }
+    },
+    {
+      breakpoint: 1400,
+      settings: {
+        slidesToShow: 3.5,
+        slidesToScroll: 1
+      }
+    },
+    
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 2.5,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplay: true,
+        speedAutoplay: 2000,
+      }
+    },
+    {
+      breakpoint: 500,
+      settings: {
+        slidesToShow: 1.5,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 400,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+  ]
+});
+    </script>
+    <script>
+      const preloader = document.getElementById("preloader");
+setTimeout(() => {
+    preloader.classList.add("d-none")
+    preloader.classList.add("overflow_hidden")
+}, 2000)
+    </script>
+    <script>
+      function openNav() {
+    document.getElementById("navbar").classList.toggle("start-0");
+    document.body.classList.toggle("overflow_hidden");
+    document.querySelector(".menu").classList.toggle("cross");
+
+}
+    </script>
+  </body>
+</html>

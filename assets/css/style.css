@@ -1,0 +1,411 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.my-container {
+  max-width: 1320px !important;
+}
+
+.ff-inter {
+  font-family: "Inter", sans-serif;
+}
+.ff-public {
+  font-family: "Public Sans", sans-serif;
+}
+
+.mt-header-heading {
+  margin-top: 158px;
+}
+
+.gap-12 {
+  gap: 12px;
+}
+/* ------------------ HEADER ----------------------- */
+.header-bg {
+  background-image: url(../images/png/HeroBg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.p-socialicon-header {
+  padding: 28px 0 16px 0;
+}
+.navbar-conatiner {
+  max-width: 1720px;
+  padding: 0 12px;
+  margin: 0 auto;
+}
+.navbar-top-line {
+  border: 0.5px solid #dbdfec;
+  opacity: 1 !important;
+}
+.navbtn {
+  border: 1px solid #edeff6;
+  padding: 12px 24px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.z-5{
+  z-index: 5;
+}
+/* <!-- ===================================   Propertice by Area   ================================ --> */
+.grid1{
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+.grid2{
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+.grid3{
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+.grid4{
+  grid-row: 3/4;
+  grid-column: 1/3;
+}
+.grid5{
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+.property1-mt{
+  margin-top: -80px;
+}
+/* <!-- ===================================   RENT AND SALE   ================================ --> */
+
+.rent-sale_btn {
+  padding: 12px 24px;
+  border-radius: 4px;
+  background: #fff;
+  color: #6e80b4;
+  border: unset;
+  transition: all 300ms linear;
+  z-index: 1;
+}
+.rent-sale_btn:hover {
+  background: #4a60a1;
+  color: #fff;
+}
+.gap-10 {
+  gap: 10px;
+}
+.rent-sale_btn:hover .triangle-svg-btn {
+  display: block;
+}
+.mb-12 {
+  margin-bottom: 12px;
+}
+.triangle-svg-btn {
+  bottom: -15px;
+  left: 42%;
+  display: none;
+  transition: all 300ms linear;
+  z-index: 0;
+}
+.rent-sale-box {
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 1096px;
+  background-color: #fff;
+  box-shadow: 0px 25.7px 72.81px 0px #3B4D8114;
+}
+.border-rent-sale-box {
+  border-right: 1px solid #cfd3d6;
+  border-bottom: 1px solid #cfd3d6;
+}
+.border-rent-sale-box3 {
+  border-right: unset;
+  border-bottom: 1px solid #cfd3d6;
+}
+.border-rent-sale-box2 {
+  border-right: 1px solid #cfd3d6;
+}
+.translate-Y-rentbox {
+  transform: translateY(-125px);
+}
+.max-w-578{
+  max-width: 578px;
+}
+
+/* card */
+.ariaCard:hover{
+  border-radius: 4px;
+  background: white;
+  transition: all 5ms linear;
+}
+.ariaCard{
+  transition: all 5ms linear;
+}
+
+/* padding */
+.py-100{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.p-22{
+  padding: 22px;
+}
+/* img */
+.bg-livingImg{
+  background-image: url('../images/png/livingImg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.crds{
+  background: white;
+  border-radius: 6.42px;
+  padding: 0px 0px 24px 0px;
+  box-shadow: 0px 25.7px 72.81px 0px #3B4D8114;
+  overflow: hidden;
+max-width: 424px;
+}
+/* btn */
+
+.btn-contact {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  transition: all 1000ms;
+  position: relative;
+  outline: 1px solid white;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.btn-contact:hover {
+  color: #4A60A1 !important;
+  transform: scale(1.1);
+  outline: 2px solid #4A60A1;
+  box-shadow: 4px 5px 17px -4px white;
+}
+
+.btn-contact::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: white;
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+.btn-contact:hover::before {
+  width: 250%;
+}
+/* <!-- ===================================   Letest Properties of Rent   ================================ --> */
+
+.slider-hover {
+  transition: all 300ms linear;
+}
+.slider-hover-btn {
+  opacity: 0;
+  transition: all 300ms linear;
+}
+.slider-hover:hover .slider-hover-btn {
+  opacity: 1;
+}
+.slick-slider {
+  overflow: visible; /* Allow overflow */
+}
+.slick-slide {
+  margin-right: 15px;
+}
+
+.rent-sale_btn2 {
+  padding: 12px 24px;
+  border-radius: 4px;
+  background: #4a60a1;
+  color: #fff;
+  border: unset;
+}
+.max-w-312 {
+  max-width: 312px;
+}
+.prev-btn,
+.nxt-btn {
+  border-radius: 4px;
+  background: #b7bfd9;
+  padding: 10px;
+}
+.arrow-mt{
+display: none !important;
+}
+.py-24{
+  padding: 24px 0;
+}
+@media (min-width:500px) {
+  .arrow-mt{
+    margin-top: -100px;
+  }
+}
+@media (min-width: 576px) {
+  .rent-sale-box {
+    padding: 32px 15px;
+  }
+  .arrow-mt{
+    margin-top: -50px;
+  }
+  .bg-livingImg{
+    min-height: 508px;
+}    
+.property1-mt{
+  margin-top: unset;
+}
+.py-100{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.py-sm-100{
+  padding-top: 100px;
+  padding-bottom: 100px;
+} 
+}
+
+@media (min-width: 768px) {
+  .border-rent-sale-box {
+    border-right: 1px solid #cfd3d6;
+    border-bottom: unset;
+  }
+  .border-rent-sale-box3 {
+    border-right: 1px solid #cfd3d6;
+    border-bottom: unset;
+  }
+  .border-rent-sale-box2 {
+    border-right: 1px solid #cfd3d6;
+  }
+  .grid1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+  .grid2{
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+  .grid3{
+    grid-row: 1/2;
+    grid-column: 3/4;
+  }
+  .grid4{
+    grid-row: 2/3;
+    grid-column: 1/3;
+  }
+  .grid5{
+    grid-row: 2/3;
+    grid-column: 3/4;
+  }
+}
+@media (min-width: 992px) {
+  .slick-slide {
+    margin-right: 30px;
+  }
+  .arrow-mt{
+    margin-top: 25px;
+  }
+  .ariaCard:hover{
+    max-width: 312px;
+    border-radius: 4px;
+    background: white;
+    transition: all 5ms linear;
+}
+}
+@media (min-width: 1600px) {
+  .my-container2 {
+    max-width: 1620px !important;
+    margin-left: auto !important ;
+    margin-right: unset !important;
+    padding-left: 12px;
+  }
+}
+@media (max-width: 992px) {
+
+  .overflow_hidden {
+    overflow: hidden !important;
+  }
+
+  .mobile-view {
+    background-color: var(--color-1E);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: -100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 300ms linear;
+    z-index: 3;
+  }
+
+  .z-5 {
+    z-index: 5;
+  }
+
+  .menu span:nth-child(1) {
+    height: 2px;
+    width: 15px;
+    background-color: var(--color-bg-ed);
+    display: block;
+    border-radius: 20px;
+  }
+
+  .menu span:nth-child(2) {
+    height: 2px;
+    width: 22px;
+    background-color: var(--color-bg-ed);
+    display: block;
+    border-radius: 20px;
+  }
+
+  .menu span:nth-child(3) {
+    height: 2px;
+    width: 30px;
+    background-color: var(--color-bg-ed);
+    display: block;
+    border-radius: 20px;
+  }
+
+  .menu span {
+    transition: 300ms linear;
+  }
+
+  .cross span:nth-child(1) {
+    transform: rotate(42deg) translateY(13px);
+    transition: 300ms linear;
+    background-color: var(--color-bg-ed);
+    width: 30px;
+  }
+
+  .cross span:nth-child(2) {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: 300ms linear;
+  }
+
+  .cross span:nth-child(3) {
+    transform: rotate(-43deg) translateY(-13px);
+    transition: 300ms linear;
+    background-color: var(--color-bg-ed);
+    width: 30px;
+  }
+}
+
+
