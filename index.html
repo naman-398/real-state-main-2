@@ -35,7 +35,7 @@
 <div class=" d-md-flex align-items-center p-socialicon-header justify-content-between d-none">
 <div class=" d-flex align-items-center gap-12">
   <img src="./assets/images/svg/Emailbox.svg" alt="">
-  <p class=" fs-xxs fw-bold text-white mb-0 ">Email us at : <span class=" fw-normal">example@mail.com</span></p>
+  <a href="mailto:example@mail.com" class=" fs-xxs fw-bold text-white mb-0 text-decoration-none ">Email us at : <span class=" fw-normal">example@mail.com</span></a>
 </div>
 <div class=" d-flex align-items-center gap-lg-3 gap-2">
  <a href="https://www.facebook.com/" target="_blank"><img src="./assets/images/svg/Facebook.svg" alt="Facebook"></a> 
@@ -44,7 +44,7 @@
  <a href="https://www.instagram.com/" target="_blank">  <img src="./assets/images/svg/Instagram.svg" alt="Instagram"></a> 
  <a href="https://www.behance.net/"><img src="./assets/images/svg/Behance.svg" alt="Behance"></a> 
  <span class=" ms-lg-3 me-lg-2"><img src="./assets/images/svg/HeaderLine.svg" alt="HeaderLine"></span> 
- <a href="" class=" d-flex align-items-center gap-12 text-decoration-none">
+ <a href="tel:1234567890" class=" d-flex align-items-center gap-12 text-decoration-none">
   <img src="./assets/images/svg/Phone.svg" alt="phone">
   <span class=" ff-inter fw-normal fs-xxs lh-xxs text-white mb-0">123-4567 890</span>
  </a>
@@ -58,24 +58,25 @@
   <img src="./assets/images/svg/Pagelogo.svg" alt="Pagelogo">
 </a>
 <div class=" d-flex align-items-center gap-xl-4 gap-3">
-  <div onclick="openNav()" class="menu d-block d-lg-none z-5">
-    <span></span>
-    <span class="my-2"></span>
-    <span></span>
-</div>
+ 
 <ul id="navbar" class=" d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 ff-inter fs-xxs lh-xxs fw-normal mb-0 ms-0 mobile-view"> 
-  <li ><a class=" text-white text-decoration-none" href="./index.html">HOME</a></li>
-  <li ><a class=" text-white text-decoration-none" href="#about">ABOUT US</a></li>
-  <li ><a class=" text-white text-decoration-none" href="#our">OUR AGENTS</a></li>
-  <li ><a class=" text-white text-decoration-none" href="./index2.html">PROPERTIES</a></li>
-  <li ><a class=" text-white text-decoration-none" href="#gallery">GALLERY</a></li>
-  <li ><a class=" text-white text-decoration-none" href="#blog">BLOG</a></li>
-  <li ><a class=" text-white text-decoration-none" href="#contact">CONTACT US</a></li>
-  <li ><a class=" text-white text-decoration-none" href="#serch">SEARCH</a></li>
+  <li ><a onclick="openNav()" class=" text-white text-decoration-none nav-h" href="./index.html">HOME</a></li>
+  <li ><a onclick="openNav()" class=" text-white text-decoration-none nav-h" href="#about">ABOUT US</a></li>
+  <li ><a onclick="openNav()" class=" text-white text-decoration-none nav-h" href="#our">OUR AGENTS</a></li>
+  <li ><a onclick="openNav()" class=" text-white text-decoration-none nav-h" href="./index2.html">PROPERTIES</a></li>
+  <li ><a onclick="openNav()" class=" text-white text-decoration-none nav-h" href="#gallery">GALLERY</a></li>
+  <li ><a onclick="openNav()" class=" text-white text-decoration-none nav-h" href="./index3.html">BLOG</a></li>
+  <li ><a onclick="openNav()" class=" text-white text-decoration-none nav-h" href="#contact">CONTACT US</a></li>
+  <li ><a onclick="openNav()" class=" text-white text-decoration-none nav-h" href="#serch">SEARCH</a></li>
 </ul>
 <button class=" ff-inter fw-medium lh-sm fs-sm text-white navbtn">
   Add Listing
 </button>
+<div onclick="openNav()" class="menu d-block d-lg-none z-5">
+  <span></span>
+  <span class="my-2"></span>
+  <span></span>
+</div>
 </div>
 </nav>
 </div>
