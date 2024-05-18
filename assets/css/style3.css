@@ -118,6 +118,31 @@
     max-width: 1096px;
     background-color: #fff;
   }
+  .mini-box{
+    padding: 10px;
+    border-radius: 10px;
+    background:#EDEFF6;
+    width: 44px;
+    height: 44px;
+}
+
+.mini-box:hover {
+    background: var(--color-2C);
+}
+.mini-box:hover .num{
+    color: white;
+
+}
+.mini-box{
+    transition: .4s;
+}
+.mini-box:hover a svg path{
+stroke: white;
+
+}
+.cursor-pointer{
+    cursor: pointer;
+}
   .border-rent-sale-box {
     border-right: 1px solid #cfd3d6;
     border-bottom: 1px solid #cfd3d6;
